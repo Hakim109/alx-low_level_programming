@@ -12,9 +12,9 @@ int main(void)
 
 	for (n = 48; n <= 55; n++)
 	{
-		for (m = 49; m <= 56; m++)
+		for (m = n + 1; m <= 56; m++)
 		{
-			for (x = 50; x <= 57; x++)
+			for (x = m + 1; x <= 57; x++)
 			{
 				putchar(n);
 				putchar(m);
