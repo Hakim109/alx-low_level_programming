@@ -2,17 +2,17 @@
 /**
  * main - Entry point
  * program prints digits
- * the (!) prevents printing the comma and space if we have reached the last combination
+ * the (!) prevents printing the comma and space
  * Return: always 0 (success)
  */
 int main(void)
 {
-       	int n;
+	int n;
 	int m;
-	
+
 	for (n = 48; n <= 56; n++)
 	{
-		for (m = n + 1; m <=57; m++)
+		for (m = n + 1; m <= 57; m++)
 		{
 			putchar(n);
 			putchar(m);
@@ -25,5 +25,5 @@ int main(void)
 		}
 	}
 	putchar('\n');
-	return 0;
+	return (0);
 }
