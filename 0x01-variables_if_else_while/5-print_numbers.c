@@ -1,8 +1,8 @@
 #include<stdio.h>
 /**
- *main - Entry point
- *using for as argument
- *Return alwyas 0 (success)
+ * main - Entry point
+ * using for as condition
+ * Return: always 0 (success)
  */
 int main(void)
 {
