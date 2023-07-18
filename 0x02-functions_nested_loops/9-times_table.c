@@ -18,10 +18,10 @@ void times_table(void)
 			if (y != 0)
 			{
 				_putchar(',');
-				_putchar(' ');
 			}
 			if (z <= 9)
 			{
+				_putchar(' ');
 				_putchar(' ');
 			_putchar(z + '0');
 			}
