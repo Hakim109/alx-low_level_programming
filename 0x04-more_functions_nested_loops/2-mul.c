@@ -1,14 +1,17 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
- * main - check the code
+ * mul - multiply two numbers
+ * @num1: interger value
+ * @num2: interger value
  *
- * Return: Always 0.
+ * Return: result
  */
-int main(void)
+
+int mul(int num1, int num2)
 {
-    printf("%d\n", mul(98, 1024));
-    printf("%d\n", mul(-402, 4096));
-    return (0);
+	int result = 0;
+
+	result = num1 * num2;
+	return (result);
 }
