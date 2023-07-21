@@ -5,7 +5,7 @@
  *
  * @n: The number of _ characters to be printed.
  * Example :
- * 
+ *
  */
 
 void print_line(int n)
