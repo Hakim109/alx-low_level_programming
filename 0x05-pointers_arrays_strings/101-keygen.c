@@ -2,19 +2,19 @@
 #include <stdlib.h>
 #include <time.h>
 /**
-  * generate_password - Generates a random password
+ * generate_password - Generates a random password
  * @length: The length of the password to be generated
  *
  * Return: The generated password
  */
 char *generate_password(int length) {
+    int i;
     char *password = (char *)malloc((length + 1) * sizeof(char));
     if (!password) {
         perror("Memory allocation failed.");
         exit(EXIT_FAILURE);
     }
 
-    int i;
     for (i = 0; i < length; i++) {
         int type = rand() % 3;
 
@@ -34,7 +34,6 @@ int main(void) {
     srand(time(NULL));
 
     int password_length = 10;
-
     char *password = generate_password(password_length);
 
     printf("Generated Password: %s\n", password);
@@ -43,4 +42,6 @@ int main(void) {
 
     return 0;
 }
+
+
 
