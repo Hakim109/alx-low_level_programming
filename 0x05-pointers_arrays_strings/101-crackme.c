@@ -19,14 +19,17 @@ int main(void)
     {
         pass[i] = rand() % 78;
         sum += pass[i];
+        putchar(pass[i] + '0');
         
         if ((2772 - sum) < 78)
         {
             n = 2772 - sum;
             sum += n;
+            putchar(n + '0');
             break;
         }
     }
+    printf("\nTada! Congrats\n");
 
     return 0;
 }
