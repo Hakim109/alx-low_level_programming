@@ -29,8 +29,7 @@ int main(void)
             break;
         }
     }
-
-    putchar('\n');
+    printf("\nTada! Congrats\n");
 
     return 0;
 }
