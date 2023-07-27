@@ -13,15 +13,15 @@ char *cap_string(char *s)
 	char *separators = " \t\n,;.!?\"(){}";
 
 	for (i = 0; s[i]; i++)
-    {
-	    if (s[i] >= 'a' && s[i] <= 'z')
-	    {
-		if (i == 0 || strchr(separators, s[i - 1]))
+	{
+		if (s[i] >= 'a' && s[i] <= 'z')
 		{
-		    s[i] -= 32; /* Convert lowercase to uppercase */
-	    }
+			if (i == 0 || strchr(separators, s[i - 1]))
+			{
+				s[i] -= 32; /* Convert lowercase to uppercase */
+			}
+		}
 	}
-    }
-    return (s);
+	return (s);
 }
 
