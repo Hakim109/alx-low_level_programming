@@ -6,14 +6,12 @@
  */
 void print_number(int n)
 {
-	int d = 1;/*divisor*/
+	int divisor = 1;
 	int temp = n;
-	int digit;
 
 	if (n == 0)
 	{
 		_putchar('0');
-		return;
 	}
 
 	if (n < 0)
@@ -22,15 +20,14 @@ void print_number(int n)
 		temp = -n;
 	}
 
-	while (temp / d >= 10)
-		d *= 10;
+	while (temp / divisor >= 10)
+		divisor *= 10;
 
-	while (d != 0)
+	while (divisor != 0)
 	{
-		digit = (temp / d);
-		_putchar(digit + '0');
-		temp %= d;
-		d /= 10;
+		_putchar((temp / divisor) + '0');
+		temp %= divisor;
+		divisor /= 10;
 	}
 }
 
