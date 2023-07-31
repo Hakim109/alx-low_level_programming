@@ -2,7 +2,7 @@
 
 /**
  * _memset -fill memory with constant values
- * @s: pointer to char 
+ * @s: pointer to char
  * @b: constant char
  * @n: byte of mem area
  * Return: *s
