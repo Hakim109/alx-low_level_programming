@@ -1,11 +1,11 @@
 #include "main.h"
-/**
-*_isdigit - check c if a digit.
-*@c: chart to check
-*Return: 1 if true 0 if false
-*/
 
+/**
+ * _isdigit - checks for a digit (0 through 9)
+ * @c: int to be checked
+ * Return: 1 if c is a digit, 0 otherwise
+ */
 int _isdigit(int c)
 {
-	return ((c >= 48 && c <= 57) ? 1 : 0);
+	return (c >= '0' && c <= '9');
 }
