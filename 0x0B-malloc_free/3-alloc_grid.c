@@ -4,7 +4,7 @@
  * alloc_grid - prototype main
  * @width: width
  * @height: height
- * Return: hk 
+ * Return: hk
  */
 int **alloc_grid(int width, int height)
 {
