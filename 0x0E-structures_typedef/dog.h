@@ -7,7 +7,7 @@
  * @age: 2nd member
  * @owner: 3rd member
  *
- * Description: this structure defining named dog with three members: name, age, and owner.
+ * Description: defining named dog with three members: name, age, and owner.
  */
 struct dog
 {
