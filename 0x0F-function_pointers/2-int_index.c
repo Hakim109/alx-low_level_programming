@@ -1,6 +1,6 @@
 #include "function_pointers.h"
 /**
- * int_index - return index 
+ * int_index - return index
  * @array: array
  * @size: size of elements in array
  * @cmp: pointer to function
