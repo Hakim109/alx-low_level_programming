@@ -1,6 +1,5 @@
 #ifndef MAIN_H
 #define MAIN_H
-#include <math.h>
 
 int is_palindrome(char *s);
 int _putchar(char c);
