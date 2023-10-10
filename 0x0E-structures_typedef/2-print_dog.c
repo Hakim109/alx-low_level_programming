@@ -3,7 +3,7 @@
 
 /**
  * print_dog - prints a struct dog
- * @d: struct dog to print
+ * @d: struct to print if d is '\0'
  */
 
 void print_dog(struct dog *d)

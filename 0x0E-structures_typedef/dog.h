@@ -3,11 +3,11 @@
 
 /**
  * struct dog - a dog's basic info
- * @name: 1st memeber
- * @age: 2nd member
- * @owner: 3rd member
+ * @name: 1st args char
+ * @age: 2nd args int
+ * @owner: 3rd args char
  *
- * Description: defining named dog with three members: name, age, and owner.
+ * Description: defining named dog with three arguments: name, age, and owner.
  */
 struct dog
 {
