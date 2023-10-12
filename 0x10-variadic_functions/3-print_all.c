@@ -3,9 +3,9 @@
 #include <stdio.h>
 
 /**
- * print_all - prints anything
- * @format: list of types of arguments passed to the function
- * Description: using switch instead of if.
+ * print_all - print formated argument
+ * @format: formated arguments passed to the function
+ * Description: using switch statement.
  */
 void print_all(const char * const format, ...)
 {
