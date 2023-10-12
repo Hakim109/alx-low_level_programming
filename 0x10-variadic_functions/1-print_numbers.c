@@ -4,22 +4,22 @@
 
 /**
  * print_numbers - Prints numbers
- * @separator: separator betwin arg
- * @n: The number of arg in fonction.
+ * @separator: pointer to string.
+ * @n: count of arg in fonction.
  * @...: A variable numbers to be printed.
  */
 
 void print_numbers(const char *separator, const unsigned int n, ...)
 
 {
-	va_list nums;
+	va_list args;
 	unsigned int index = 0;
 
-	va_start(nums, n);
+	va_start(args, n);
 
 	while (index < n)
 	{
-		printf("%d", va_arg(nums, int));
+		printf("%d", va_arg(args, int));
 
 		if (index != (n - 1) && separator != NULL)
 			printf("%s", separator);
@@ -28,5 +28,5 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 
 	printf("\n");
 
-	va_end(nums);
+	va_end(args);
 }
