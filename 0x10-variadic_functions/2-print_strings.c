@@ -5,7 +5,7 @@
 /**
  * print_strings - Prints strings
  * @separator: printed between strings.
- * @n: The number of arg function.
+ * @n: count of arg passed to function.
  * @...: A variable number of strings to be printed.
  *
  * Description: If separator is NULL, it is not printed.
