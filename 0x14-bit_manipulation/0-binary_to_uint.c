@@ -1,4 +1,4 @@
-nclude "main.h"
+#include "main.h"
 
 /**
  * binary_to_uint - converts a binary number to U int
@@ -6,7 +6,7 @@ nclude "main.h"
  *
  * Return: unsigned int.
  */
-unsiigned int binary_to_uint(const char *b)
+unsigned int binary_to_uint(const char *b)
 {
 	unsigned int i;
 	int len, b2;
